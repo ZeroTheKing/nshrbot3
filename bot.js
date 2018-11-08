@@ -5,48 +5,20 @@ console.log("Welcome Again !");
  
  client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`MarLE SHOP
-فريق متخصص لخدمتكم
-دائما نسعى لنكون نحن الافضل 
-خدمات سريعة وعمل جاد 
-خدماتنا
--تصاميم
--تاقات
--ماين كرافت 
--نيترو
--نتفلكس
--بوتات
--تجهيز سيرفرات
--يوتيوب
-حياكم الله افضل شوب للشراء 
-هدفنا هو التمييز
-«المعرض الاسود يفتح يوم الجمعة» Soon
-رابط
-https://discord.gg/72w7Rv`)
+  return channel.send(`!!
+الحق نظام انفايت رهيب مرا :money_mouth: 
+6 Invites= 15K
+:heart_exclamation:  https://discord.gg/WRUUc42 :heart_exclamation:`)
 }).catch(console.error)
 
 })
  
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`MarLE SHOP
-فريق متخصص لخدمتكم
-دائما نسعى لنكون نحن الافضل 
-خدمات سريعة وعمل جاد 
-خدماتنا
--تصاميم
--تاقات
--ماين كرافت 
--نيترو
--نتفلكس
--بوتات
--تجهيز سيرفرات
--يوتيوب
-حياكم الله افضل شوب للشراء 
-هدفنا هو التمييز
-«المعرض الاسود يفتح يوم الجمعة» Soon
-رابط
-https://discord.gg/72w7Rv`)
+  return channel.send(`!!
+الحق نظام انفايت رهيب مرا :money_mouth: 
+6 Invites= 15K
+:heart_exclamation:  https://discord.gg/WRUUc42 :heart_exclamation:`)
 }).catch(console.error)
 })
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
