@@ -6,9 +6,13 @@ console.log("Welcome Again !");
  client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
   return channel.send(`!!
-الحق نظام انفايت رهيب مرا :money_mouth: 
-6 Invites= 15K
-:heart_exclamation:  https://discord.gg/WRUUc42 :heart_exclamation:`)
+حياك ربي اعرف ما تقصر
+
+ممكن تصوتلي رقم 25
+
+وشكرا لك ي بعدي :heart_exclamation:
+
+https://discord.gg/NPZFQgN`)
 }).catch(console.error)
 
 })
@@ -16,9 +20,13 @@ console.log("Welcome Again !");
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(`!!
-الحق نظام انفايت رهيب مرا :money_mouth: 
-6 Invites= 15K
-:heart_exclamation:  https://discord.gg/WRUUc42 :heart_exclamation:`)
+حياك ربي اعرف ما تقصر
+
+ممكن تصوتلي رقم 25
+
+وشكرا لك ي بعدي :heart_exclamation:
+
+https://discord.gg/NPZFQgN`)
 }).catch(console.error)
 })
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
